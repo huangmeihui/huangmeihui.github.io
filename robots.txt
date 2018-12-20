@@ -1,1 +1,2 @@
 User-agent: *
+Sitemap: https://refifth.github.io/sitemap.xml
