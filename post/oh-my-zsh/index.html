@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-cn">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Oh-My-Zsh安装 - Blog</title>
+  <title>Debian 安装 Oh-My-Zsh - Blog</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -16,14 +16,15 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="Mr.Left" /><meta name="description" content="安装Git以及zsh 1 # apt-get install git zsh 下载项目到本地 1 git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh 如果根目录之下有.zshrc这个zsh的配置文件则备份 1 cp ~/.zshrc ~/.zshrc.back 通过oh-my-zsh" /><meta name="keywords" content="Hugo, theme, even" />
+<meta name="author" content="Mr.Fifth" /><meta name="description" content=" 安装Git以及zsh
+1  # apt-get install git zsh   " /><meta name="keywords" content="Hugo, theme, even" />
 
 
 
 
 
 
-<meta name="generator" content="Hugo 0.52 with even 4.0.0" />
+<meta name="generator" content="Hugo 0.53 with even 4.0.0" />
 
 
 <link rel="canonical" href="https://refifth.github.io/post/oh-my-zsh/" />
@@ -38,26 +39,56 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
 
 
-<meta property="og:title" content="Oh-My-Zsh安装" />
-<meta property="og:description" content="安装Git以及zsh 1 # apt-get install git zsh 下载项目到本地 1 git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh 如果根目录之下有.zshrc这个zsh的配置文件则备份 1 cp ~/.zshrc ~/.zshrc.back 通过oh-my-zsh" />
+<meta property="og:title" content="Debian 安装 Oh-My-Zsh" />
+<meta property="og:description" content="
+安装Git以及zsh
+
+
+1
+
+
+# apt-get install git zsh
+
+
+" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://refifth.github.io/post/oh-my-zsh/" /><meta property="article:published_time" content="2018-01-10T15:05:06&#43;00:00"/>
 <meta property="article:modified_time" content="2018-01-10T15:05:06&#43;00:00"/>
 
-<meta itemprop="name" content="Oh-My-Zsh安装">
-<meta itemprop="description" content="安装Git以及zsh 1 # apt-get install git zsh 下载项目到本地 1 git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh 如果根目录之下有.zshrc这个zsh的配置文件则备份 1 cp ~/.zshrc ~/.zshrc.back 通过oh-my-zsh">
+<meta itemprop="name" content="Debian 安装 Oh-My-Zsh">
+<meta itemprop="description" content="
+安装Git以及zsh
+
+
+1
+
+
+# apt-get install git zsh
+
+
+">
 
 
 <meta itemprop="datePublished" content="2018-01-10T15:05:06&#43;00:00" />
 <meta itemprop="dateModified" content="2018-01-10T15:05:06&#43;00:00" />
-<meta itemprop="wordCount" content="206">
+<meta itemprop="wordCount" content="249">
 
 
 
 <meta itemprop="keywords" content="工具," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Oh-My-Zsh安装"/>
-<meta name="twitter:description" content="安装Git以及zsh 1 # apt-get install git zsh 下载项目到本地 1 git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh 如果根目录之下有.zshrc这个zsh的配置文件则备份 1 cp ~/.zshrc ~/.zshrc.back 通过oh-my-zsh"/>
+<meta name="twitter:title" content="Debian 安装 Oh-My-Zsh"/>
+<meta name="twitter:description" content="
+安装Git以及zsh
+
+
+1
+
+
+# apt-get install git zsh
+
+
+"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -120,17 +151,19 @@
           <article class="post">
     
     <header class="post-header">
-      <h1 class="post-title">Oh-My-Zsh安装</h1>
+      <h1 class="post-title">Debian 安装 Oh-My-Zsh</h1>
 
       <div class="post-meta">
         <span class="post-time"> 2018-01-10 </span>
         
+          <span class="more-meta"> 约 249 字 </span>
+          <span class="more-meta"> 预计阅读 1 分钟 </span>
         
       </div>
     </header>
 
     <div class="post-toc" id="post-toc">
-  <h2 class="post-toc-title">Contents</h2>
+  <h2 class="post-toc-title">文章目录</h2>
   <div class="post-toc-content always-active">
     
   </div>
@@ -146,7 +179,9 @@
 <pre class="chroma"># apt-get install git zsh</pre></td></tr></table>
 </div>
 </div></li>
+</ol>
 
+<ol>
 <li><p>下载项目到本地</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -183,11 +218,11 @@
 <pre class="chroma"><span class="lnt">1
 </span></pre></td>
 <td class="lntd">
-<pre class="chroma"># chsh -s /bin/zsh</pre></td></tr></table>
+<pre class="chroma">chsh -s /bin/zsh</pre></td></tr></table>
 </div>
 </div></li>
 
-<li><p>重新打开一个终端，可能会发现乱码，原因是没有安装PowerLine的字体</p>
+<li><p>重新打开一个终端，可能会发现乱码，原因是没有安装PowerLine的字体（不同的Linux发行版可能有不同的包，建议先搜索一下）</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><span class="lnt">1
@@ -201,22 +236,35 @@
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
 </span></pre></td>
 <td class="lntd">
-<pre class="chroma">vim ~/.zshrc</pre></td></tr></table>
+<pre class="chroma">vim ~/.zshrc
+## 举个栗子
+ZSH_THEME = &#34;agnoster&#34;</pre></td></tr></table>
+</div>
+</div></li>
+
+<li><p>手动更新</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">upgrade_oh_my_zsh</pre></td></tr></table>
 </div>
 </div></li>
 </ol>
-
     </div>
 
     <div class="post-copyright">
   <p class="copyright-item">
-    <span class="item-title">Author</span>
-    <span class="item-content">Mr.Left</span>
+    <span class="item-title">文章作者</span>
+    <span class="item-content">Mr.Fifth</span>
   </p>
   <p class="copyright-item">
-    <span class="item-title">LastMod</span>
+    <span class="item-title">上次更新</span>
     <span class="item-content">2018-01-10</span>
   </p>
   
@@ -245,11 +293,11 @@
 
 <div class="copyright">
   <span class="power-by">
-    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+    由 <a class="hexo-link" href="https://gohugo.io">Hugo</a> 强力驱动
   </span>
   <span class="division">|</span>
   <span class="theme-info">
-    Theme - 
+    主题 - 
     <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
   </span>
 
@@ -257,11 +305,12 @@
 
   <span class="copyright-year">
     &copy; 
-    2018
+    2018 - 
+    2019
     <span class="heart">
       <i class="iconfont icon-heart"></i>
     </span>
-    <span class="author">Mr.Left</span>
+    <span class="author">Mr.Fifth</span>
   </span>
 </div>
     </footer>
