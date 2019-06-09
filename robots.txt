@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://blog.omuumo.com/sitemap.xml
+Sitemap: https://refifth.github.io/sitemap.xml
