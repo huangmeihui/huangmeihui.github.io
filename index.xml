@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog</title>
+    <title>Communication</title>
     <link>https://refifth.github.io/</link>
-    <description>Recent content on Blog</description>
+    <description>Recent content on Communication</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Wed, 10 Jan 2018 15:05:06 +0000</lastBuildDate>
     
