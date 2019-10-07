@@ -1,56 +1,56 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<?xml-stylesheet type="text/xsl" href="https://refifth.github.io/sitemap.xsl"?>
+<?xml-stylesheet type="text/xsl" href="https://moc.omuumo.com/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://refifth.github.io/post/oh-my-zsh/</loc>
+    <loc>https://moc.omuumo.com/post/oh-my-zsh/</loc>
     <lastmod>2019-10-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://refifth.github.io/post/http-cache/</loc>
+    <loc>https://moc.omuumo.com/post/http-cache/</loc>
     <lastmod>2019-10-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://refifth.github.io/categories/</loc>
+    <loc>https://moc.omuumo.com/categories/</loc>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://refifth.github.io/</loc>
+    <loc>https://moc.omuumo.com/</loc>
     <lastmod>2019-10-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://refifth.github.io/post/</loc>
+    <loc>https://moc.omuumo.com/post/</loc>
     <lastmod>2019-10-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://refifth.github.io/tags/</loc>
+    <loc>https://moc.omuumo.com/tags/</loc>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://refifth.github.io/tags/%E5%B7%A5%E5%85%B7/</loc>
+    <loc>https://moc.omuumo.com/tags/%E5%B7%A5%E5%85%B7/</loc>
     <lastmod>2019-10-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://refifth.github.io/tags/%E7%AC%94%E8%AE%B0/</loc>
+    <loc>https://moc.omuumo.com/tags/%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2019-10-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>

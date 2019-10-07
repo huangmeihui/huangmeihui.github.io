@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Communication</title>
-    <link>https://refifth.github.io/post/</link>
+    <link>https://moc.omuumo.com/post/</link>
     <description>Recent content in Posts on Communication</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 07 Oct 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://refifth.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://moc.omuumo.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Debian 安装 Oh-My-Zsh</title>
-      <link>https://refifth.github.io/post/oh-my-zsh/</link>
+      <link>https://moc.omuumo.com/post/oh-my-zsh/</link>
       <pubDate>Mon, 07 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://refifth.github.io/post/oh-my-zsh/</guid>
+      <guid>https://moc.omuumo.com/post/oh-my-zsh/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;安装 Git 以及 zsh&lt;/li&gt;
 &lt;/ul&gt;
@@ -33,10 +33,10 @@ sudo apt install git zsh&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tabl
     
     <item>
       <title>HTTP 缓存</title>
-      <link>https://refifth.github.io/post/http-cache/</link>
+      <link>https://moc.omuumo.com/post/http-cache/</link>
       <pubDate>Mon, 07 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://refifth.github.io/post/http-cache/</guid>
+      <guid>https://moc.omuumo.com/post/http-cache/</guid>
       <description>&lt;h3 id=&#34;分类&#34;&gt;分类&lt;/h3&gt;
 
 &lt;ul&gt;
