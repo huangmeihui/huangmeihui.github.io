@@ -4,7 +4,14 @@
   
   <url>
     <loc>https://refifth.github.io/post/oh-my-zsh/</loc>
-    <lastmod>2018-01-10T15:05:06+00:00</lastmod>
+    <lastmod>2019-10-07T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://refifth.github.io/post/http-cache/</loc>
+    <lastmod>2019-10-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -17,14 +24,14 @@
   
   <url>
     <loc>https://refifth.github.io/</loc>
-    <lastmod>2018-01-10T15:05:06+00:00</lastmod>
+    <lastmod>2019-10-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://refifth.github.io/post/</loc>
-    <lastmod>2018-01-10T15:05:06+00:00</lastmod>
+    <lastmod>2019-10-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -37,7 +44,14 @@
   
   <url>
     <loc>https://refifth.github.io/tags/%E5%B7%A5%E5%85%B7/</loc>
-    <lastmod>2018-01-10T15:05:06+00:00</lastmod>
+    <lastmod>2019-10-07T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://refifth.github.io/tags/%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2019-10-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
