@@ -424,41 +424,48 @@
   
 
   <div class="entry-content">
-    <ul>
-<li>安装 Git 以及 zsh</li>
-</ul>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo apt update
-sudo apt install git zsh</code></pre></div>
-<ul>
-<li>下载项目到本地</li>
-</ul>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh --depth 1</code></pre></div>
-<ul>
-<li>如果根目录之下有 .zshrc 这个 zsh 的配置文件则备份</li>
-</ul>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cp ~/.zshrc ~/.zshrc.back</code></pre></div>
-<ul>
-<li>通过 oh-my-zsh 的配置模板新建 zsh 的配置文件</li>
-</ul>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc</code></pre></div>
-<ul>
-<li>安装工作完毕，更换默认 shell ，需要重启会话</li>
-</ul>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">chsh -s /bin/zsh</code></pre></div>
-<ul>
-<li>重新打开一个终端，可能会发现乱码，原因是没有安装 PowerLine 的字体（不同的 Linux 发行版可能有不同的包，建议先搜索一下）</li>
-</ul>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo apt install fonts-powerline</code></pre></div>
-<ul>
-<li>Theme更换,编辑 .zshrc 文件,找到 ZSH_THEME 这一行修改即可 （<a href="https://github.com/robbyrussell/oh-my-zsh/wiki/Themes">内置主题列表</a>）</li>
-</ul>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">vim ~/.zshrc
-<span style="font-style:italic">## 举个栗子</span>
-ZSH_THEME = <span style="font-style:italic">&#34;agnoster&#34;</span></code></pre></div>
-<ul>
-<li>手动更新</li>
-</ul>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">upgrade_oh_my_zsh</code></pre></div>
+    <p>安装 Git 以及 zsh</p>
+
+<pre><code>sudo apt update
+sudo apt install git zsh
+</code></pre>
+
+<p>下载项目到本地</p>
+
+<pre><code>git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh --depth 1
+</code></pre>
+
+<p>如果根目录之下有 .zshrc 这个 zsh 的配置文件则备份</p>
+
+<pre><code>cp ~/.zshrc ~/.zshrc.back
+</code></pre>
+
+<p>通过 oh-my-zsh 的配置模板新建 zsh 的配置文件</p>
+
+<pre><code>cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
+</code></pre>
+
+<p>安装工作完毕，更换默认 shell ，需要重启会话</p>
+
+<pre><code>chsh -s /bin/zsh
+</code></pre>
+
+<p>重新打开一个终端，可能会发现乱码，原因是没有安装 PowerLine 的字体（不同的 Linux 发行版可能有不同的包，建议先搜索一下）</p>
+
+<pre><code>sudo apt install fonts-powerline
+</code></pre>
+
+<p>Theme更换,编辑 .zshrc 文件,找到 ZSH_THEME 这一行修改即可 （<a href="https://github.com/robbyrussell/oh-my-zsh/wiki/Themes">内置主题列表</a>）</p>
+
+<pre><code>vim ~/.zshrc
+## 举个栗子
+ZSH_THEME = &quot;agnoster&quot;
+</code></pre>
+
+<p>手动更新</p>
+
+<pre><code>upgrade_oh_my_zsh
+</code></pre>
   </div>
 
   <div id=links>

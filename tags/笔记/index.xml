@@ -19,10 +19,10 @@
       <guid>https://moc.omuumo.com/post/http-cache/</guid>
       <description>&lt;h3 id=&#34;分类&#34;&gt;分类&lt;/h3&gt;
 
-&lt;ul&gt;
+&lt;ol&gt;
 &lt;li&gt;服务端缓存，又分为代理服务器缓存和反向代理服务器缓存&lt;/li&gt;
 &lt;li&gt;客户端缓存，即浏览器缓存&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;/ol&gt;</description>
     </item>
     
   </channel>
