@@ -16,14 +16,14 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="omuumo" /><meta name="description" content=" 安装 Git 以及 zsh  1 2  sudo apt update sudo apt install git zsh   " />
+<meta name="author" content="omuumo" /><meta name="description" content=" 安装 Git 以及 zsh  1 2  sudo apt update sudo apt install git zsh  " />
 
 
 
 
 
 
-<meta name="generator" content="Hugo 0.65.3 with even 4.0.0" />
+<meta name="generator" content="Hugo 0.53 with even 4.0.0" />
 
 
 <link rel="canonical" href="https://moc.omuumo.com/post/oh-my-zsh/" />
@@ -51,12 +51,11 @@
 sudo apt update
 sudo apt install git zsh
 
-
 " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://moc.omuumo.com/post/oh-my-zsh/" />
-<meta property="article:published_time" content="2019-10-07T00:00:00+00:00" />
-<meta property="article:modified_time" content="2019-10-07T00:00:00+00:00" />
+<meta property="og:url" content="https://moc.omuumo.com/post/oh-my-zsh/" /><meta property="article:published_time" content="2019-10-07T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2019-10-07T00:00:00&#43;00:00"/>
+
 <meta itemprop="name" content="Debian 安装 Oh-My-Zsh">
 <meta itemprop="description" content="
 安装 Git 以及 zsh
@@ -70,15 +69,17 @@ sudo apt install git zsh
 sudo apt update
 sudo apt install git zsh
 
-
 ">
+
+
 <meta itemprop="datePublished" content="2019-10-07T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2019-10-07T00:00:00&#43;00:00" />
 <meta itemprop="wordCount" content="205">
 
 
 
-<meta itemprop="keywords" content="工具," /><meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="工具," />
+<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Debian 安装 Oh-My-Zsh"/>
 <meta name="twitter:description" content="
 安装 Git 以及 zsh
@@ -91,7 +92,6 @@ sudo apt install git zsh
 
 sudo apt update
 sudo apt install git zsh
-
 
 "/>
 
@@ -170,7 +170,7 @@ sudo apt install git zsh
     <div class="post-toc" id="post-toc">
   <h2 class="post-toc-title">文章目录</h2>
   <div class="post-toc-content always-active">
-    <nav id="TableOfContents"></nav>
+    
   </div>
 </div>
     <div class="post-content">
@@ -179,94 +179,93 @@ sudo apt install git zsh
 </ul>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="lnt">1
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-bash" data-lang="bash">sudo apt update
-sudo apt install git zsh
-</code></pre></td></tr></table>
+sudo apt install git zsh</code></pre></td></tr></table>
 </div>
-</div><ul>
+</div>
+<ul>
 <li>下载项目到本地</li>
 </ul>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh --depth <span class="m">1</span>
-</code></pre></td></tr></table>
+<pre class="chroma"><code class="language-bash" data-lang="bash">git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh --depth <span class="m">1</span></code></pre></td></tr></table>
 </div>
-</div><ul>
+</div>
+<ul>
 <li>如果根目录之下有 .zshrc 这个 zsh 的配置文件则备份</li>
 </ul>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">cp ~/.zshrc ~/.zshrc.back
-</code></pre></td></tr></table>
+<pre class="chroma"><code class="language-bash" data-lang="bash">cp ~/.zshrc ~/.zshrc.back</code></pre></td></tr></table>
 </div>
-</div><ul>
+</div>
+<ul>
 <li>通过 oh-my-zsh 的配置模板新建 zsh 的配置文件</li>
 </ul>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
-</code></pre></td></tr></table>
+<pre class="chroma"><code class="language-bash" data-lang="bash">cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc</code></pre></td></tr></table>
 </div>
-</div><ul>
+</div>
+<ul>
 <li>安装工作完毕，更换默认 shell ，需要重启会话</li>
 </ul>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">chsh -s /bin/zsh
-</code></pre></td></tr></table>
+<pre class="chroma"><code class="language-bash" data-lang="bash">chsh -s /bin/zsh</code></pre></td></tr></table>
 </div>
-</div><ul>
+</div>
+<ul>
 <li>重新打开一个终端，可能会发现乱码，原因是没有安装 PowerLine 的字体（不同的 Linux 发行版可能有不同的包，建议先搜索一下）</li>
 </ul>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">sudo apt install fonts-powerline
-</code></pre></td></tr></table>
+<pre class="chroma"><code class="language-bash" data-lang="bash">sudo apt install fonts-powerline</code></pre></td></tr></table>
 </div>
-</div><ul>
+</div>
+<ul>
 <li>Theme更换,编辑 .zshrc 文件,找到 ZSH_THEME 这一行修改即可 （<a href="https://github.com/robbyrussell/oh-my-zsh/wiki/Themes">内置主题列表</a>）</li>
 </ul>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-bash" data-lang="bash">vim ~/.zshrc
 <span class="c1">## 举个栗子</span>
-<span class="nv">ZSH_THEME</span> <span class="o">=</span> <span class="s2">&#34;agnoster&#34;</span>
-</code></pre></td></tr></table>
+<span class="nv">ZSH_THEME</span> <span class="o">=</span> <span class="s2">&#34;agnoster&#34;</span></code></pre></td></tr></table>
 </div>
-</div><ul>
+</div>
+<ul>
 <li>手动更新</li>
 </ul>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">upgrade_oh_my_zsh
-</code></pre></td></tr></table>
+<pre class="chroma"><code class="language-bash" data-lang="bash">upgrade_oh_my_zsh</code></pre></td></tr></table>
 </div>
 </div>
     </div>
