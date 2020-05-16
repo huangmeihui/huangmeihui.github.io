@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Comunication</title>
-    <link>https://moc.omuumo.com/categories/</link>
+    <link>https://clopend.space/categories/</link>
     <description>Recent content in Categories on Comunication</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
-	<atom:link href="https://moc.omuumo.com/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://clopend.space/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
