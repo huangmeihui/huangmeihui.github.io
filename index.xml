@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Comunication</title>
-    <link>https://clopend.space/</link>
+    <link>https://blog.clopend.space/</link>
     <description>Recent content on Comunication</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 07 Oct 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://clopend.space/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.clopend.space/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Debian 安装 Oh-My-Zsh</title>
-      <link>https://clopend.space/post/oh-my-zsh/</link>
+      <link>https://blog.clopend.space/post/oh-my-zsh/</link>
       <pubDate>Mon, 07 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://clopend.space/post/oh-my-zsh/</guid>
+      <guid>https://blog.clopend.space/post/oh-my-zsh/</guid>
       <description>&lt;p&gt;安装 Git 以及 zsh&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;sudo apt update
@@ -26,10 +26,10 @@ sudo apt install git zsh
     
     <item>
       <title>HTTP 缓存</title>
-      <link>https://clopend.space/post/http-cache/</link>
+      <link>https://blog.clopend.space/post/http-cache/</link>
       <pubDate>Mon, 07 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://clopend.space/post/http-cache/</guid>
+      <guid>https://blog.clopend.space/post/http-cache/</guid>
       <description>&lt;h3 id=&#34;分类&#34;&gt;分类&lt;/h3&gt;
 
 &lt;ol&gt;
